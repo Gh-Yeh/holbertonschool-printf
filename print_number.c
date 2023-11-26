@@ -16,9 +16,11 @@ int _isdigit(int c)
 *@s: the string
 *Return: integer to the length
 */
+
 int _strlen(char *s)
 {
 	int i = 0;
+
 	while (*s++)
 		i++;
 	return (i);
